@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root fx:id="root_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="101.0" prefWidth="258.0" styleClass="icon-varassignbac" stylesheets="@application.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="4.0" layoutY="40.0" text="Set" />
+      <TextField fx:id="name_field" layoutX="24.0" layoutY="36.0" prefHeight="25.0" prefWidth="72.0" />
+      <TextField fx:id="value_field" layoutX="172.0" layoutY="36.0" prefHeight="25.0" prefWidth="72.0" />
+      <ComboBox fx:id="function_combo_box" layoutX="103.0" layoutY="36.0" prefHeight="25.0" prefWidth="65.0" />
+   </children>
+</fx:root>

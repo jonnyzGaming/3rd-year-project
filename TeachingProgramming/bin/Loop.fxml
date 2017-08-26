@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root fx:id="root_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="99.0" prefWidth="275.0" styleClass="icon-loopbac" stylesheets="@application.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="123.0" layoutY="6.0" text="Loop" />
+      <TextField fx:id="number_field" layoutX="64.0" layoutY="23.0" prefHeight="25.0" prefWidth="192.0" />
+      <ComboBox fx:id="condition_combo_box" layoutX="129.0" layoutY="52.0" prefHeight="25.0" prefWidth="64.0" />
+      <TextField fx:id="variable_field" layoutX="64.0" layoutY="52.0" prefHeight="25.0" prefWidth="62.0" />
+      <TextField fx:id="value_field" layoutX="193.0" layoutY="52.0" prefHeight="25.0" prefWidth="62.0" />
+      <RadioButton fx:id="amount_radio" layoutY="27.0" mnemonicParsing="false" text="Amount" />
+      <RadioButton fx:id="while_radio" layoutY="56.0" mnemonicParsing="false" text="While" />
+   </children>
+</fx:root>

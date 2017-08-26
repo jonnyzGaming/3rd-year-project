@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root fx:id="root_pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="96.0" prefWidth="140.0" styleClass="dragicon" stylesheets="@application.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="133.0" prefWidth="140.0">
+         <children>
+            <GridPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="28.0" prefWidth="132.0" styleClass="node-overlay">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="57.0" minWidth="10.0" prefWidth="36.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="83.0" />
+                <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="14.0" prefWidth="21.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="title_bar" text="Label" />
+                  <Label fx:id="close_button" text="x" GridPane.columnIndex="2">
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                  </Label>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <AnchorPane fx:id="socket1" prefHeight="200.0" prefWidth="200.0" styleClass="left-link-handle" stylesheets="@application.css" />
+                        <AnchorPane fx:id="socket2" prefHeight="200.0" prefWidth="200.0" styleClass="right-link-handle" />
+                     </children>
+                  </HBox>
+               </children>
+            </GridPane>
+            <AnchorPane fx:id="node_body" prefHeight="200.0" prefWidth="140.0" />
+            <HBox maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0" prefWidth="158.0">
+               <children>
+                  <AnchorPane fx:id="port1" prefHeight="200.0" prefWidth="200.0" styleClass="left-link-handle" />
+                  <AnchorPane fx:id="port2" prefHeight="200.0" prefWidth="200.0" styleClass="right-link-handle" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</fx:root>

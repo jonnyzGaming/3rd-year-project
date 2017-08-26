@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root fx:id="root_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="102.0" prefWidth="182.0" styleClass="icon-ifbac" stylesheets="@application.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="11.0" layoutY="32.0" text="If" />
+      <TextField fx:id="variable_field" layoutX="22.0" layoutY="28.0" prefHeight="25.0" prefWidth="61.0" />
+      <Label layoutX="83.0" layoutY="32.0" text="==" />
+      <TextField fx:id="value_field" layoutX="102.0" layoutY="28.0" prefHeight="25.0" prefWidth="78.0" />
+      <Label layoutX="22.0" layoutY="80.0" text="THEN" textFill="#0b2801" />
+      <Label layoutX="129.0" layoutY="80.0" text="ELSE" />
+   </children>
+</fx:root>

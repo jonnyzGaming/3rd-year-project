@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root fx:id="root_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="90.0" prefWidth="169.0" styleClass="icon-printbac" stylesheets="@application.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="2.0" layoutY="37.0" text="Print" />
+      <TextField fx:id="print_field" layoutX="33.0" layoutY="14.0" prefHeight="25.0" prefWidth="109.0" />
+      <TextField fx:id="extra_print_field" layoutX="33.0" layoutY="54.0" prefHeight="25.0" prefWidth="109.0" />
+      <Label layoutX="49.0" text="Standard text" />
+      <Label layoutX="56.0" layoutY="37.0" text="variables" />
+   </children>
+</fx:root>

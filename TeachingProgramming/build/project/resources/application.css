@@ -1,0 +1,72 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.dragicon {
+	-fx-background-radius: 10;
+}
+
+.icon-blue {
+    -fx-background-color: #ACCDF2;
+}
+
+.icon-gold {
+    -fx-background-color: #C2BE5D;
+}
+
+.icon-green {
+	 -fx-background-color: #A6E391
+
+}
+
+.icon-grey {
+    -fx-background-color: #999997;
+}
+
+
+.icon-brown {
+    -fx-background-color: #B3603D;
+}
+
+.icon-purple {
+    -fx-background-color: #9E5EB5;
+}
+
+.icon-brightgreen {
+    -fx-background-color: #1C6B11;
+}
+
+.icon-sequencerbac {
+    -fx-background-color: #BBE8AC;
+}
+
+.icon-variablebac {
+    -fx-background-color: #D1CE8E;
+}
+
+.icon-printbac {
+    -fx-background-color: #C8DFF7;
+}
+
+.icon-ifbac {
+    -fx-background-color: #C9C9C7;
+}
+.icon-varassignbac {
+    -fx-background-color: #C386D9;
+}
+
+.node-overlay {
+    -fx-background-radius: 10 10 0 0;
+    -fx-background-color:
+    linear-gradient(to bottom, rgba(255,255,255,0.7) 15%, rgba(50,100,150,0.45) 100%);
+    
+}
+
+.right-link-handle:hover {
+    -fx-background-radius: 0 0 10 0;
+    -fx-background-color:
+    rgba(255, 255, 255, 0.35);
+}
+
+.left-link-handle:hover {
+    -fx-background-radius: 0 0 0 10;
+    -fx-background-color:
+    rgba(255, 255, 255, 0.35);
+}
